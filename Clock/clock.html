@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>JavaScript Clock</title>
+
+        <link rel="stylesheet" href="clock.css">
+        
+        <style>
+
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin-top: 100px;
+                background-color:rgb(231, 158, 158);
+                }
+
+            #clock {
+                font-size: 25px;
+                font-weight: 400;
+                color: #333;
+                border: outset 25px;
+                border-radius: 20px;
+                width:35%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                padding:2px;
+                margin-left: 30%;
+                block-size: 80px;
+                background-color: lightblue;
+                border-color: darkgray;
+}
+        </style>
+
+    </head>
+    
+    <body id ="body">
+
+        <h1>Digital Clock</h1>
+
+        <br>
+        <button id = "military"><span id ="format"> 12 Hour</span> Clock</button>
+        <br><br>
+
+        <div id="clock">00:00:00
+
+            <div id = "dayOfWeek">Date:</div>
+        </div>
+
+        <br>
+
+        <button id = "toggle">Dark Mode</button>
+    
+        <script src="clock.js"></script>
+
+    </body>
+
+    <br>
+</html>

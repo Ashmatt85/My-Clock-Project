@@ -1,0 +1,27 @@
+#military{
+    height:20%;
+    width:17%;
+    font-size: 25px ;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 6px 7px 0px 0px #333;
+}
+#military:hover{  
+    box-shadow: 0px 0px 30px chartreuse;
+}
+#military:active{
+    background-color:chartreuse;
+}
+
+#toggle{
+    height:20%;
+    width:16%;
+    font-size: 25px ;
+    box-shadow: 6px 7px 0px 0px #333;
+    border-radius: 40px 40px 40px 40px;
+}
+#toggle:hover{   
+    box-shadow: 0px 0px 35px chartreuse;
+}
+#toggle:active{
+    background-color:chartreuse;
+}
